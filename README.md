@@ -1,5 +1,9 @@
 # Devops:
 
+## Git Folder
+
+> git add .;git commit -m "nginx playbook"; git push
+
 ## Ansible Folder
 **AWS instnce Launch:**
 Communit edition of RHEL9
