@@ -43,6 +43,8 @@ Start the NGINX service:
 
 **PlayBooks**
 
+Keep all your modules/collections in a single YAML file.
+
 
 
 
