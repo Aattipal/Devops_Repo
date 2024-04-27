@@ -59,7 +59,7 @@ Keep all your modules/collections in a single YAML file.
 **tasks:** nothing but tasks/modules/collections
 
 > ansible -i inventory.ini all --list-hosts
-<br />
+
 > ansible -i inventory.ini web --list-hosts
 
 Playbook commands start with `ansible-playbook`:
@@ -69,8 +69,9 @@ Playbook commands start with `ansible-playbook`:
 playbook for Nginx:
 
 > ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e anisble_password=DevOps321 02-nginx.yaml
-<br />
+
 > ansible -i 54.92.202.148, all  -e anisble_user=ec2-user -e ansible_password=DevOps321 -m shell -a "systemctl status nginx"
+
 
 
 
