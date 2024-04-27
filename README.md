@@ -45,6 +45,8 @@ Start the NGINX service:
 
 Keep all your modules/collections in a single YAML file.
 
+**YAML:** Follows the indentation - Yet Another Markup Language/YAML
+
 
 
 
