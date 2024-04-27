@@ -33,10 +33,15 @@ Ansible --> Modules/collections
 
 **Note:** -b is kind of sudo/root access to install, -a is arguments
 
+Start the NGINX service:
+> ansible -i 54.92.202.148, all -e ansible_user=ec2-user -e ansible_password=DevOps321 -m service -a "name=nginx state=started" -b
+
 **Debug logs:** -vvv 
 
 > ansible -i 54.92.202.148, all -e ansible_user=ec2-user -e ansible_password=DevOps321 -m dnf -a "name=nginx state=installed" -b -vvv
 
+
+**PlayBooks**
 
 
 
