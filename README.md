@@ -54,9 +54,13 @@ Keep all your modules/collections in a single YAML file.
 
 **tasks:** nothing but tasks/modules/collections
 
+> ansible -i inventory.ini all --list-hosts
+<br />
+> ansible -i inventory.ini web --list-hosts
 
+Playbook commands start with `ansible-playbook`:
 
-
+> ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e anisble_password=DevOps321 01-Ping.yaml
 
 
 
