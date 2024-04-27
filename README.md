@@ -27,6 +27,15 @@ Ansible --> Modules/collections
 --> Open port 22 on remote nodes <br />
 --> security groups configured
 
+**ansible package installation CMD:**
+
+> ansible -i 54.92.202.148, all -e ansible_user=ec2-user -e ansible_password=DevOps321 -m dnf -a "name=nginx state=installed" -b
+
+**Note:** -b is kind of sudo/root access to install, -a is arguments
+
+**Debug logs:** -vvv 
+
+> ansible -i -vvv 54.92.202.148, all -e ansible_user=ec2-user -e ansible_password=DevOps321 -m dnf -a "name=nginx state=installed" -b
 
 
 
