@@ -35,7 +35,7 @@ Ansible --> Modules/collections
 
 **Debug logs:** -vvv 
 
-> ansible -i -vvv 54.92.202.148, all -e ansible_user=ec2-user -e ansible_password=DevOps321 -m dnf -a "name=nginx state=installed" -b
+> ansible -i 54.92.202.148, all -e ansible_user=ec2-user -e ansible_password=DevOps321 -m dnf -a "name=nginx state=installed" -b -vvv
 
 
 
