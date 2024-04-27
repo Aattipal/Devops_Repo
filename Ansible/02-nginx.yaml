@@ -7,6 +7,6 @@
         name: nginx
         state: latest
     - name: start the service
-      ansible.builtin.service:
+      ansible.builtin.service: # service in ansible is equivalent to systemctl CMD in shell
         name: nginx
         state: started

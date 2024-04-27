@@ -62,6 +62,11 @@ Playbook commands start with `ansible-playbook`:
 
 > ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e anisble_password=DevOps321 01-Ping.yaml
 
+playbook for Nginx:
+
+> ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e anisble_password=DevOps321 02-nginx.yaml
+<br />
+> ansible -i 54.92.202.148, all  -e anisble_user=ec2-user -e ansible_password=DevOps321 -m shell -a "systemctl status nginx"
 
 
 
