@@ -47,7 +47,12 @@ Keep all your modules/collections in a single YAML file.
 
 **YAML:** Follows the indentation - Yet Another Markup Language/YAML
 
+**Ansible Playbook Folder structure:**
 
+1. playbook_name.yaml/ playbook_name.yml
+2. inventory.ini
+
+**tasks:** nothing but tasks/modules/collections
 
 
 
